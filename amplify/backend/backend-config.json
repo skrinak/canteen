@@ -1,0 +1,16 @@
+{
+	"auth": {
+		"canteen85aa8a6b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"storage": {
+		"canteens": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
