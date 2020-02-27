@@ -1,16 +1,23 @@
 {
 	"auth": {
-		"canteen85aa8a6b": {
+		"canteen15d5a2e2": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
-			"dependsOn": [],
-			"customAuth": false
+			"dependsOn": []
 		}
 	},
 	"storage": {
 		"canteens": {
 			"service": "S3",
 			"providerPlugin": "awscloudformation"
+		}
+	},
+	"predictions": {
+		"identifyLabels459067dd": {
+			"providerPlugin": "awscloudformation",
+			"service": "Rekognition",
+			"dependsOn": [],
+			"identifyType": "identifyLabels"
 		}
 	}
 }

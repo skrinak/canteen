@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "canteen85aa8a6b_identitypool_85aa8a6b",
+    "identityPoolName": "canteen15d5a2e2_identitypool_15d5a2e2",
     "allowUnauthenticatedIdentities": true,
-    "resourceNameTruncated": "cantee85aa8a6b",
-    "userPoolName": "canteen85aa8a6b_userpool_85aa8a6b",
+    "resourceNameTruncated": "cantee15d5a2e2",
+    "userPoolName": "canteen15d5a2e2_userpool_15d5a2e2",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "cantee85aa8a6b_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "cantee15d5a2e2_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "canteen85aa8a6b",
+    "resourceName": "canteen15d5a2e2",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
