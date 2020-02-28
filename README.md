@@ -1,4 +1,4 @@
-# 2020-02-07 - Amplify Predictions Webinar
+Amplify Predictions Webinar
 
 ## Features
 * Entities recognition
